@@ -1,18 +1,39 @@
 # Smart Food Delivery Route Optimizer
 
-A professional Streamlit web app for optimizing food delivery routes with graph algorithms.
+An intelligent route optimization system built using Python and Streamlit to simulate real-world food delivery planning using graph algorithms and traffic-aware routing.
+
+## Overview
+
+This project focuses on optimizing multi-stop food delivery routes by minimizing travel distance and improving delivery efficiency under different traffic conditions.
+
+The system applies graph-based algorithms such as Dijkstra’s shortest path algorithm along with heuristic optimization strategies to simulate practical logistics and route-planning scenarios.
+
+---
 
 ## Features
 
-- Streamlit-only Python UI
-- Delivery location input for locations A-F
-- Traffic-aware weighted graph
-- Exact permutation-based routing
-- Greedy nearest-stop routing
-- Advanced greedy + 2-opt improvement
-- Dijkstra shortest paths between route stops
-- Matplotlib and NetworkX route visualization
-- Input validation and clear error messages
+- Interactive Streamlit web interface
+- Traffic-aware weighted graph simulation
+- Multi-stop route optimization
+- Exact permutation-based route planning
+- Greedy nearest-neighbor optimization
+- Advanced heuristic optimization (Greedy + 2-Opt)
+- Dijkstra shortest-path computation
+- Real-time route visualization using NetworkX and Matplotlib
+- Input validation and error handling
+
+---
+
+## Tech Stack
+
+- Python
+- Streamlit
+- NetworkX
+- Matplotlib
+- Graph Algorithms
+- Dijkstra’s Algorithm
+
+---
 
 ## Project Structure
 
@@ -26,14 +47,9 @@ A professional Streamlit web app for optimizing food delivery routes with graph 
 └── README.md
 ```
 
-## Run Locally
-
+RUN LOCALLY
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Deploy
-
-This project is ready for GitHub and can be deployed on Streamlit Community Cloud.
 
